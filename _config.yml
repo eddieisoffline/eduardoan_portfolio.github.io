@@ -4,3 +4,6 @@ description: Eduardo Anica Gonzalez is a Data Analyst with passion for the power
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+collections:
+  _portfolio:
+    output: true
