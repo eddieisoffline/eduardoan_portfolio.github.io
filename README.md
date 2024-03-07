@@ -10,21 +10,25 @@ Beyond my interest in data, I'm into the music production in my free time.
 # Project: Diabetes In Pima Women.
 
 [This project analyzes through different elements the probabilities of developing diabetes in Pima women and the possible health complications they could develop, through a Bayesian hypothesis.](_portfolio/portfolio-1.html)
-<br/><img src='/images/image_1.jpg'>
+<br/>
+![diabetes](/images/image_1.jpg)
 # Project : Online Retail Sales Store Data Analysis
 
 [This project consists of a detailed analysis of sales data from an online retail store for the years 2010 to 2011. It highlights revenue by country, shopping habits by day and time, most popular products and largest orders.](_portfolio/portfolio-2.html) 
-<br/><img src='/images/image_2.jpg'>
+<br/>
+![retail](/images/image_2.jpg)
 
 # Project: Attendance at the National Cinematheque of Mexico during 2019 - 2023 
 
 [This project analyzes in detail the attendance preferences at the Cineteca Nacional de México from 2019 to March 2023, including attendance data during the Covid-19 global pandemic.](_portfolio/portfolio-3.html)
-<br/><img src='/images/image_3.jpg'>"
+<br/>
+![cineteca](/images/image_3.jpg)
 
 # Project: Death causes, life expectancy and world happiness score
 
 [This project analyzes trends in the causes of death worldwide between 1990 and 2022, correlating life expectancy and happiness scores for each country.](_portfolio/portfolio-4.html) 
-<br/><img src='/images/image_4.jpeg'>"
+<br/>
+![death](/images/image_4.jpeg)
 
 ### Skills & Interests
 
