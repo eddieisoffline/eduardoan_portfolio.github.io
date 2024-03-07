@@ -1,0 +1,45 @@
+---
+title: "Death causes, life expectancy and world happiness score"
+excerpt: "This project analyzes trends in the causes of death worldwide between 1990 and 2022, correlating life expectancy and happiness scores for each country. <br/><img src='/images/image_4.jpeg'>"
+collection: portfolio
+---
+<h3>Introduction</h3>
+This report presents a data analysis paper on causes of death in the world over a 32-year period, starting in 1990 and ending in 2022. The objective of this analysis is to understand the trends of these causes of death for each country in the world, find a relationship with life expectancy and happiness score of each country. The analysis will be conducted using advanced statistical techniques and data visualization tools to identify significant patterns, trends and correlations. 
+<br> </br>
+<h3>Methodology</h3>
+The data were extracted from the <a href="https://www.kaggle.com/datasets/abhijitdahatonde/past-32-year-global-mortality-trends">kaggle page </a> they were uploaded, in addition more data were sought to complement the analysis on the same page, the additional data were the <a href="https://www.kaggle.com/datasets/marshuu/suicide-rate-and-life-expectancy/data">following </a>, both being CSV files (Comma Separated Values in English). The data was loaded into a database hosted on Google Cloud's BigQuery, using the test space of this platform and cleaned through different SQL queries, excluding data generalized by areas or regions, such as data provided by the World Bank, the World Health Organization and the Organization for Economic Cooperation and Development, as well as a total count of the entire world that the dataset had.
+The data were joined through JOIN queries in order to complement the analysis.
+<br></br>
+<h3>Results</h3>
+The countries with the most deaths were found to be:
+<ul>
+<li>China</li>
+260,330,544 deaths, having a female life expectancy of 81.5 years and a male life expectancy of 76.1 years and a happiness score of 5.90 points which leans to a high score, with 3.35 points being the lowest and 7.76 points being the highest.
+Its leading cause of death was deaths related to cardiovascular problems, 38.60% of total deaths.
+<li>India</li>
+A total of 232,630,980 deaths, having a female life expectancy of 70.70 years and a male life expectancy of 68.50 years, with a happiness score of 4.52 points, ranking near the midpoint.
+Their leading cause of death was deaths related to cardiovascular problems, accounting for 22.78% of total deaths.
+<li>United States</li>
+A total of 70,438,346 deaths, having a female life expectancy of 81.10 years and a male life expectancy of 76.10 years, with a happiness score of 6.94 points, ranking high.
+The main cause of death was also cardiovascular complications, accounting for 37.53% of total deaths.
+<li>Indonesia</li>
+A total of 43,824,936 deaths, having a female life expectancy of 74.30 years and male life expectancy of 70.30 years, with a happiness score of 5.13 points, ranking as a medium score.
+The leading cause of death was cardiovascular complications, accounting for 31.0029% of total deaths.
+<li>Nigeria</li>
+A total of 43,502,391 deaths, having a life expectancy for the female sex of 55.60 years and for the male sex of 52.90 years, having a happiness score of 3.357 points, ranking among the lowest levels.
+The main cause of death was cardiovascular complications, accounting for 9.60% of all deaths.
+</ul>
+<h3>Conclusion</h3>
+<ul>
+    <li>Cardiovascular problems are the leading cause of death in the 5 countries with the most deaths in the world, this suggests the need to implement preventive measures and health programs to reduce these risk factors.</li>
+    <li>The difference in life expectancy between countries suggests inequality in access to health services and medical care.</li>
+    <li>The results highlight the importance of implementing public health interventions aimed at preventing and controlling cardiovascular disease, especially in countries with lower life expectancies.</li>
+</ul>
+<br></br>
+<h3>Dashboard</h3>
+<div class='tableauPlaceholder' id='viz1709673161646' style='position: relative'><noscript><a href='#'><img alt='A Chart About Life and Death: Death Causes In The World, Life Expectansy and Happiness Score. ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AC&#47;AChartAboutLifeandDeathDeathCausesInTheWorldLifeExpectansyandHappinessScore_&#47;AChartAboutLifeandDeathDeathCausesInTheWorldLifeExpectansyandHappinessScore_&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AChartAboutLifeandDeathDeathCausesInTheWorldLifeExpectansyandHappinessScore_&#47;AChartAboutLifeandDeathDeathCausesInTheWorldLifeExpectansyandHappinessScore_' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AC&#47;AChartAboutLifeandDeathDeathCausesInTheWorldLifeExpectansyandHappinessScore_&#47;AChartAboutLifeandDeathDeathCausesInTheWorldLifeExpectansyandHappinessScore_&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1709673161646');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1477px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<br></br>
+<h3>Files:</h3>
+<ul>
+    <li><a href="https://drive.google.com/file/d/1FvpSfEZZMLuLiShIT930r7h2CzO8QX67/view?usp=sharing"> Queries</a>
+    <li><a href="https://drive.google.com/drive/folders/17TYqh7pjil3ZSTUwgn9IBqTbxBQWQTdh?usp=sharing"> Data</a>
